@@ -1,0 +1,19 @@
+# Configuration for actions/labeler
+
+"type: docs":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "*.md"
+          - "docs/**"
+
+"type: infra":
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/**"
+          - "scripts/**"
+          - "Cargo.toml"
+
+"type: feature":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/**"
