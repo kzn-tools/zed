@@ -1,5 +1,9 @@
 # Kaizen for Zed
 
+[![Build](https://github.com/kzn-tools/zed/actions/workflows/build.yml/badge.svg)](https://github.com/kzn-tools/zed/actions/workflows/build.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 Ultra-fast JavaScript/TypeScript static analyzer extension for [Zed](https://zed.dev).
 
 ## Prerequisites
@@ -90,6 +94,30 @@ Build the extension locally:
 cargo build --target wasm32-wasip1 --release
 ```
 
+## 🤝 Contributing
+
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+**Quick links:**
+- 🐛 [Report a bug](.github/ISSUE_TEMPLATE/bug_report.md)
+- 💡 [Suggest a feature](.github/ISSUE_TEMPLATE/feature_request.md)
+- 🔍 [Good first issues](https://github.com/kzn-tools/zed/labels/good%20first%20issue)
+
+## 💎 OSS Contributors Program
+
+Active contributors earn **free Pro tier access** to Kaizen Cloud:
+- ✅ 3+ meaningful merged PRs = Free Pro tier
+- 🔄 Renewable annually
+- 🏆 Public recognition
+
+[Learn more →](https://kaizen.tools/oss)
+
+## 🔗 Kaizen Ecosystem
+
+- [Kaizen CLI](https://github.com/kzn-tools/kaizen) - Core static analyzer
+- [VSCode Extension](https://github.com/kzn-tools/vscode) - VSCode integration
+- [Kaizen Cloud](https://kaizen.tools) - Cloud platform
+
 ## License
 
-MIT
+MIT - See [LICENSE](LICENSE) for details.
